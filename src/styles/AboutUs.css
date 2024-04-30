@@ -1,0 +1,80 @@
+.about-us-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 10px;
+   
+    /* margin-top: 50px; */
+  }
+  
+  .image-container {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .text-container {
+    flex: 2;
+    padding-left: 50px;
+  }
+  
+  .about-us-image {
+    margin-top: 100px;
+    height: 80vh;
+    border-radius: 0px 150px;
+     width: 55vw;
+box-shadow: 5px 5px 7px 0px rgba(245, 192, 0, 0.95);
+  }
+  
+  .text-container h2 {
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .text-container p {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 5px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .about-us-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      align-items: center; /* Center align items */
+      padding-left: 20px; /* Add some left padding */
+      padding-right: 20px; /* Add some right padding */
+    }
+  
+    .image-container,
+    .text-container {
+      width: 100%; /* Make both containers full width */
+      padding-left: 0; /* Remove left padding */
+      padding-right: 0; /* Remove right padding */
+    }
+  
+    .about-us-image {
+      margin-top: 50px; /* Decrease margin on smaller screens */
+      height: auto; /* Let the height adjust based on content */
+      width: 100%; /* Make the image full width */
+      border-radius: 0; /* Remove border-radius */
+      box-shadow: none; /* Remove box shadow */
+    }
+  
+    .text-container h2 {
+      margin-top: 50px;
+      font-size: 20px; 
+      text-decoration: none; 
+    }
+  
+    .text-container p {
+      font-size: 20px; 
+    }
+  }

@@ -1,0 +1,135 @@
+.main-content {
+  padding-top: 70px;
+  z-index: 1;
+}
+
+.add-business-header {
+  padding-left: 26px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
+.add-business-section {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #bfbfbf;
+}
+
+.add-business-sidebar {
+  width: 316px;
+  height: 947px;
+  border: 1px solid #e5e4e4;
+}
+
+.menu-item {
+  padding: 10px;
+  padding-left: 26px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.menu-item-section {
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+  height: 1px;
+}
+
+.menu-item.active {
+  background-color: #d9d9d980;
+  color: gray;
+}
+
+.form-group label {
+  margin: 10px 0px;
+}
+
+.descriptionButton {
+  margin-right: 3rem;
+}
+
+.file-area {
+  width: 100%;
+  position: relative;
+  border: 1px dashed #1d2432;
+  border-radius: 8px;
+  height: 200px;
+  align-items: center;
+}
+.file-area input[type="file"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.file-area .file-dummy {
+  width: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  /* border: 2px dashed rgba(255, 255, 255, 0.2); */
+  height: 200px;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  /* font-weight: 400; */
+}
+.file-area .file-dummy .success {
+  display: none;
+}
+.file-area:hover .file-dummy {
+  background: rgba(255, 255, 255, 0.1);
+}
+.file-area input[type="file"]:focus + .file-dummy {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.file-area input[type="file"]:valid + .file-dummy {
+  border-color: rgb(248 212 203 / 23%);
+  background-color: rgb(248 212 203 / 23%);
+}
+.file-area input[type="file"]:valid + .file-dummy .success {
+  display: inline-block;
+}
+.file-area input[type="file"]:valid + .file-dummy .default {
+  display: none;
+}
+
+.form-label {
+  font-size: 17px;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+.form-label-heading {
+  /* margin-top: 4px; */
+  font-size: 18px;
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+}
+
+
+.form-group > label {
+  font-weight: 500;
+}
+
+.single-line-label {
+  white-space: nowrap; /* Prevents the text from wrapping */
+  display: block; /* Ensures the label behaves as a block element, taking up the full width */
+  width: 100%; /* Makes the label take the full width of its container */
+  overflow: visible; /* Keeps overflow content visible */
+}

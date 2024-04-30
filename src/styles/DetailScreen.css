@@ -1,0 +1,80 @@
+.carousel-container .carousel-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .carousel-container .custom-controls {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+  }
+  
+  .carousel-caption {
+    position: relative;
+  }
+
+  .video-tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px; /* Adjust this value to your preference */
+    height: auto; /* Adjust this value to your preference */
+    z-index: 999; /* Ensure the tag appears above the video */
+  }
+  
+
+  .carousel-container .custom-controls span,
+  .carousel-container .custom-controls button {
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+    color: white; /* Adjust color as needed */
+    border: none;
+  }
+  
+  .carousel-control-next-icon{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+  }
+
+  .carousel-control-prev-icon{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+  }
+
+  .carousel-container .carousel-caption {
+    bottom: 60px; /* Adjust the position of the original caption */
+  }
+  
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+  }
+
+  /* .video-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  } */
+
+  .expand-map-btn,
+  .exit-map-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    padding: 5px 10px;
+    background-color: rgba(137, 137, 137, 0.778);
+    color: white !important;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+ 

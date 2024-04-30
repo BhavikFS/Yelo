@@ -1,0 +1,32 @@
+.card-community {
+    border-radius: 8px;
+    border: 1px solid rgb(0 0 0 / 18%);
+    padding: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .card-community .btn {
+    background-color: #F5C000B2 !important;
+    height: 40px;
+    font-weight: 600;
+  }
+  .follow{
+    background-color: #F5C000B2;
+    padding: 8px;
+    margin-bottom: 20px;
+
+  }
+  .pera{
+    margin-left: 60px;
+    margin-right: 20px !important;
+  }
+  
+
+  .card-list {
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid rgb(0 0 0 / 18%);
+    padding: 24px;
+    height: 525px;
+  }

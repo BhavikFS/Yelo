@@ -1,0 +1,25 @@
+.card-container {
+  margin-bottom: 20px; /* Set the desired margin */
+}
+
+.card {
+  width: 200px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border: 1px solid #ccc;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.card.open {
+  height: 200px; /* Set the height when card is open */
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 10px;
+}

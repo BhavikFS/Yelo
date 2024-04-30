@@ -1,0 +1,78 @@
+.upload {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  label {
+    cursor: pointer;
+
+    input {
+      display: none;
+    }
+
+    span {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      border: 1px dashed;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.4s;
+
+      i {
+        position: absolute;
+        font-size: 25px;
+      }
+
+      /* &:hover {
+          transform: scale(0.8);
+        } */
+    }
+  }
+}
+.detail-block {
+  width: 50%;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+}
+
+.detail-item {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: start; /* Align to the start of the flex container */
+  align-items: center; /* Center align vertically */
+}
+
+.detail-item > .label {
+  width: 35%; /* Adjust label width as needed */
+  text-align: start; /* Right align the label text */
+  margin-right: 10px; /* Spacing between label and text */
+  font-weight: 700;
+
+  white-space: nowrap; /* Prevents the text from wrapping */
+  display: block; /* Ensures the label behaves as a block element, taking up the full width */
+  width: 100%; /* Makes the label take the full width of its container */
+  overflow: visible; /* Keeps overflow content visible */
+
+}
+
+.detail-item > .text {
+  text-align: left; /* Left align the text */
+  width: 65%; /* Adjust text width as needed */
+}
+
+.card-img-top {
+  border-bottom: 2px yellow solid;
+}
+
+.cardCustom{
+  height: 513.99px !important;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+

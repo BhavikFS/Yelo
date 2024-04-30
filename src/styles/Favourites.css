@@ -1,0 +1,15 @@
+.margin-custum {
+    color: #777;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .icon-row {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.icon-row > * {
+    margin-right: 10px; /* Adjust margin as needed */
+    margin-left: 5px;
+}

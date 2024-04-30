@@ -1,0 +1,63 @@
+/* FAQ container */
+.faq {
+
+    margin: 0 auto;
+    margin-left: 20px;
+   
+   
+  }
+  
+  /* FAQ heading */
+  .faq h2 {
+   
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+   
+   
+  }
+  
+  /* Question */
+  .faq h4 {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Answer */
+  .faq p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Image */
+  .faq img {
+    float: right;
+    width: 409px;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 0px 150px;
+    margin-right: 25px;
+  
+  box-shadow: -4px 7px 10px 0px rgba(245, 192, 0, 0.96);
+  
+  }
+  
+  /* Clearfix to prevent float overlap */
+  /* .faq:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+
+  @media only screen and (max-width: 768px) {
+    .faq {
+      
+       text-align: left;
+    }
+    
+    .faq img {
+       display: none;
+    }
+}
